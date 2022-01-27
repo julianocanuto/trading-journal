@@ -3,7 +3,11 @@ This is a trade management system for the Brazilian market operated in B3 exchan
 
 There's also a plan to implement support to add trading rules and daily report to help the trader stick to their trading plan.
 
-## Architecture
+## System modeling
+### Class diagram
+![Trading Journal](https://user-images.githubusercontent.com/17866411/151455510-b230cc4d-4138-4ec6-8c41-b6a182064542.png)
+
+### Architecture
 Layered architecture will be used.
 ![System Architecture](https://user-images.githubusercontent.com/17866411/147827466-1600b17b-003f-441e-b22f-b8dd6e3cf451.png)
 

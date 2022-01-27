@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### PlantUml jar ###
+plantuml-1.2021.16.jar

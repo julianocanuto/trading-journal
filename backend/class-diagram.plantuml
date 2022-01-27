@@ -1,0 +1,38 @@
+@startuml Trading Journal
+
+skinparam backgroundColor transparent
+skinparam ClassBorderColor black
+skinparam ClassBackgroundColor white
+skinparam DefaultFontSize 14
+
+class Trade {
+    -id
+    -Symbol
+    -openDateTime
+    -closeDateTime
+    -quantity
+    -buyPrice
+    -sellPrice
+    -stopPrice
+    -targetPrice
+    -side
+}
+
+class Broker {
+    -id
+    -name
+}
+
+class Symbol {
+    -id
+    -ticker
+    -fullName
+}
+
+left to right direction
+
+Broker "1" --- "0..*" Trade
+
+Trade "0..*" --- "1" Symbol
+
+@enduml
